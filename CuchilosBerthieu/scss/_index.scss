@@ -1,0 +1,272 @@
+/* INICIO INDEX */
+.home{       
+        background: url("../assets/images/pexels-luis-quintero-1659746\ \(1\).jpg") ; 
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat:repeat;
+        height: 820px;
+        width:100% !important; 
+    }
+
+.navbar-nav {
+    margin-left: auto;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition-delay:1.5s; 
+}
+
+.nav-link{
+    color: white !important;
+}
+
+
+.nav-link:hover{
+    
+    color:rgb(165, 165, 165) !important;
+}
+.textosParallax{
+    position: relative;
+    top: 220px;
+    color: whitesmoke;
+
+}
+
+.textoparallax{
+    color: rgb(255, 255, 255);
+     background-color: #c55d08;
+     animation: pulse 2s 3s ease-out infinite;
+     font-size: 20px;
+     transition-delay:1.5s;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+    transition-delay: 1s;
+    width: 200px; 
+    display: inline-block;  
+    margin-top: 15px;
+
+ 
+}
+.textoparallax:hover{
+    color: rgb(0, 0, 0);
+
+}
+.swipeDown{
+    position: relative;
+    top:200px;
+    color: rgb(165, 165, 165);
+    animation-name: pulse;
+    animation: pulse 2s 3s ease-out infinite;
+    transition-delay:1.9s;
+    
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 1;
+      transform: none;
+    }
+    50% {
+      opacity: .9;
+      transform: scale(.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+.linkParrafo{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* SECCION */
+
+ .seccion__imgSeccion{
+    // padding-top: 100px;
+    //  padding-bottom: 50px;
+    position: relative;
+    top: 100px;
+    
+} 
+
+
+.containerSeccion__seccionDescripcion{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.containerSeccion__seccionTitulo{
+    position: relative;
+    top: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+  
+    
+}
+.instagram-media{
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+    width: 100% !important;
+    height: 1000px !important;
+}
+
+
+.containerSeccion{
+    text-decoration: none;
+    position: relative;
+    top:10px;
+    padding-top: 50px ;
+    padding-bottom:80px ;
+    
+}
+.feedTitulo{
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    top: 25px;
+    padding-bottom: 25px;
+    color: black;
+    
+  }
+  .feedTitulo:hover{
+      color: #616160;
+  }
+  .feedLink{
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  .dividerIndex{
+      height: 0.8rem;
+      max-width: 3.40rem;
+      margin: 1.5rem auto;
+      background-color: #616160;
+      opacity: 1;
+      padding: 1px;
+  }
+/* FIN SECCION */
+
+.carousel-inner img {
+    padding-top:50px ;
+    height: 800px;
+    width: 100%;
+    padding: 80px;   
+ }
+ .carousel-indicators{
+     position: relative;
+     top: 700px;
+ } 
+/* INICIO FOOTER */
+
+footer{
+    background-color: rgb(179, 179, 179);  
+    padding: 10px;
+    margin-top:35px ;
+}
+
+.Redes{
+    display: flex;
+    justify-content: center;
+}
+.Redes__img-footer {
+    padding: 15px;
+    transition: 1s;
+}
+
+.Redes__img-footer:hover{
+    transform: translateY(-10px);
+}
+
+.footerRow__tituloFooter{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.cophyright__copy{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.creador__creadorPagina{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+
+.creadorPagina__creador{
+    position: relative;
+    left:5px;
+    text-decoration: none;
+    color: #000000; 
+}
+.creadorPagina__creador span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: rgb(179, 179, 179);  
+     border-left: 2px solid #959595;
+    animation: escribir 3s steps(36) infinite alternate;
+  }
+  
+  @keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+  }
+  
+.creadorPagina__creador:hover{
+    color: rgb(255, 255, 255) !important;
+}
+/* FIN FOOTER */
+
+/* FIN INDEX */
+
+// #loader-page {
+//     position: fixed;
+//     z-index: 25000;
+//     background: rgb(255, 255, 255);
+//     left: 0px;
+//     top: 0px;
+//     height: 100%;
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition:all 5s ease;
+//   }
+//   #loader-page::before {
+//     content: "";
+//     position: absolute;
+//     border: 2px solid rgb(50, 150, 176);
+//     width: 60px;
+//     height: 60px;
+//     border-radius: 50%;
+//     box-sizing: border-box;
+//     border-left: 2px solid rgba(50, 150, 176,0);
+//     border-top: 2px solid rgba(50, 150, 176,0);
+//     animation: rotarload 1s linear infinite;
+//     transform: rotate(0deg);
+//   }
+//   @keyframes rotarload {
+//       0%   {transform: rotate(0deg)}
+//       100% {transform: rotate(360deg)}
+//   }
+//   #loader-page::after {
+//     content: "";
+//     position: absolute;
+//     border: 2px solid rgba(50, 150, 176,.5);
+//     width: 60px;
+//     height: 60px;
+//     border-radius: 50%;
+//     box-sizing: border-box;
+//     border-left: 2px solid rgba(50, 150, 176, 0);
+//     border-top: 2px solid rgba(50, 150, 176, 0);
+//     animation: rotarload 1s ease-out infinite;
+//     transform: rotate(0deg);
+//   }

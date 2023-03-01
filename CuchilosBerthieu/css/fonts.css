@@ -1,0 +1,157 @@
+/* IMPORT FONT */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+@font-face{
+    font-family: "Blacksword";
+    src: url(Blacksword.otf);
+  }
+
+  @font-face{
+    font-family: "Montserrat-Italic";
+    src: url(Montserrat-Italic.ttf);
+  }
+
+  @font-face{
+    font-family: "Montserrat-SemiBoldItalic";
+    src: url(Montserrat-SemiBoldItalic.ttf);
+  }
+  
+  /* FIN IMPORT FONT */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+  /* INICIA CONTACTOS */
+  .textoParallaxContact{
+    font-family: "Blacksword"; 
+  }
+
+  .titleDondeEstamos{
+    font-family: "Montserrat-Italic" ;
+    font-size: 40px;
+   
+    
+  }
+
+  .titleContacto{
+    font-family: "Montserrat-SemiBoldItalic";
+  }
+
+  .contacto_p{
+    font-family: "Montserrat-Italic" ;
+    font-size: 20px;
+  }
+
+
+
+  /* FIN CONTACTOS */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+  /* NOSOTROS */
+  .texto_ParallaxNosotros{
+    font-family: "Blacksword";
+    font-size: 60px;  
+  }
+
+  .historiaNosotros{
+    font-family: "Montserrat-SemiBoldItalic";
+  }
+  .pNosotros{
+    font-family: "Montserrat-Italic" ;
+    font-size: 18px;
+  }
+
+  .testimonioTitulo{
+    font-family: "Blacksword";
+    font-size: 50px;
+  }
+
+  .parrafoTestimonio{
+    font-family: "Montserrat-Italic";
+  }
+
+  .nombreTestimonio{
+    font-family: "Montserrat-Italic";
+  }
+  /* FIN NOSOTROS */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* PRODUCTOS */
+.textoParallaxProductos{
+  font-family: "Blacksword";
+  font-size: 60px;  
+}
+
+/* FIN PRODUCTOS */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* INDEX */
+.navbar-nav{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+.textoParallaxIndex{
+  font-family: "Blacksword";  
+  font-size: 50px;
+}
+
+.textoparallax{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+
+.containerSeccion__seccionTitulo{
+  font-family: "Montserrat-Italic"; 
+  font-size: 40px;
+ 
+}
+
+.containerSeccion__seccionDescripcion{
+  font-family: "Montserrat-SemiBoldItalic";
+  font-size:18px;
+}
+.feedTitulo{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+
+
+/* FIN INDEX */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* NOVEDADES */
+
+.textosParallaxIndexNovedades{
+  font-family:"Blacksword"  ;
+  font-size: 60px;
+}
+.tituloNovedades{
+  font-family: "Montserrat-SemiBoldItalic";
+ 
+
+}
+
+.tituloAutor{
+  font-family:"Montserrat-SemiBoldItalic"  ;
+  
+}
+/* FIN NOVEDADES */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+  /* FOOTER */
+  .creador__creadorPagina{
+    font-family: "Montserrat-Italic" ;
+  }
+
+  .footerRow__tituloFooter{
+      font-family: "Blacksword"; 
+      font-size: 30px;
+  }
+
+  .cophyright__copy{
+    font-family: "Montserrat-Italic" ;
+    font-size: 14px;
+  }
+  /* FIN FOOTER */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */

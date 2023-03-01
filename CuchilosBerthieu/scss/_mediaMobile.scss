@@ -1,0 +1,844 @@
+@media only screen and (min-width:300px) and (max-width:910px) and (max-height:900px) {
+    /* INICIA CONTACTOS */
+  .textoParallaxContact{
+    font-family: "Blacksword"; 
+  }
+
+  .titleDondeEstamos{
+    font-family: "Montserrat-Italic" ;
+    font-size: 40px;
+   
+  }
+
+  .titleContacto{
+    font-family: "Montserrat-SemiBoldItalic";
+  }
+
+  .contacto_p{
+    font-family: "Montserrat-Italic" ;
+    font-size: 20px;
+  }
+
+
+
+  /* FIN CONTACTOS */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+  /* NOSOTROS */
+  .texto_ParallaxNosotros{
+    font-family: "Blacksword";
+    font-size: 60px;  
+  }
+
+  .historiaNosotros{
+    font-family: "Montserrat-SemiBoldItalic";
+  }
+  .pNosotros{
+    font-family: "Montserrat-Italic" ;
+    font-size: 18px;
+  }
+
+  .testimonioTitulo{
+    font-family: "Blacksword";
+    font-size: 50px;
+  }
+
+  .parrafoTestimonio{
+    font-family: "Montserrat-Italic";
+  }
+
+  .nombreTestimonio{
+    font-family: "Montserrat-Italic";
+  }
+  /* FIN NOSOTROS */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* PRODUCTOS */
+.textoParallaxProductos{
+  font-family: "Blacksword";
+  font-size: 60px;  
+}
+
+/* FIN PRODUCTOS */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* INDEX */
+.navbar-nav{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+.textoParallaxIndex{
+  font-family: "Blacksword";  
+  font-size: 50px;
+}
+
+.textoparallax{
+  font-family: "Montserrat-Italic";
+}
+
+.containerSeccion__seccionTitulo{
+  font-family: "Montserrat-Italic";
+  
+  font-size: 40px;
+ 
+}
+
+.containerSeccion__seccionDescripcion{
+  font-family: "Montserrat-SemiBoldItalic";
+  font-size:18px;
+}
+.feedTitulo{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+
+
+/* FIN INDEX */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* NOVEDADES */
+
+.textosParallaxIndexNovedades{
+  font-family:"Blacksword"  ;
+  font-size: 60px;
+}
+.tituloNovedades{
+  font-family: "Montserrat-SemiBoldItalic";
+ 
+
+}
+
+.tituloAutor{
+  font-family:"Montserrat-SemiBoldItalic"  ;
+  
+}
+/* FIN NOVEDADES */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+  /* FOOTER */
+  .creador__creadorPagina{
+    font-family: "Montserrat-Italic" ;
+  }
+
+  .footerRow__tituloFooter{
+      font-family: "Blacksword"; 
+      font-size: 30px;
+  }
+
+  .cophyright__copy{
+    font-family: "Montserrat-Italic" ;
+    font-size: 14px;
+  }
+  /* FIN FOOTER */
+    .swipeDown{
+        position: relative;
+        top:110px;  
+        color: white;   
+    }
+
+    .swipeDownProductos{
+        position: relative;
+        top:300px;  
+        color: white;   
+    }
+
+    .swipeDownContacto{
+        position: relative;
+        top:400px;  
+        color: white;   
+    }
+
+    .swipeDownNovedades{
+        position: relative;
+        top:350px;  
+        color: white;   
+    }
+
+    .swipeDownNosotros{
+        position: relative;
+        top:150px;  
+        color: white;   
+    }
+   
+    .tituloFeed {
+       display: none;
+    }
+   
+    .textoParallaxIndex{
+        font-size: 35px !important;
+    }
+    .textosParallax{
+      font-size: 10px !important;
+      position: relative !important;
+      top: 150px !important;
+      color: whitesmoke;
+  }
+  
+  .textoParallaxProductos{
+      font-size: 30px !important;
+      position: relative !important;
+      top: 100px !important;         
+  }
+  .texto_ParallaxNosotros{
+      font-size: 30px !important;
+    position: relative !important;
+    bottom: 50px !important;      
+  }
+ 
+  .textoParallaxContact{
+        font-size: 30px;
+      position: relative !important;
+      top: 190px !important;
+  }
+  
+.home-contacto {
+    background-image: url(../assets/images/contactomobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+  }
+  .homeProductos {
+    background-image: url("../assets/images/nosotros.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+  }
+  .home-novedades {
+    background-image: url(../assets/images/carrousel5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+  }
+
+  .home{
+    background-size: cover;
+     background-attachment: fixed;
+    background-position: left;
+    background-repeat:repeat;
+    height: 850px;
+    width:100% !important; 
+}
+    .textosParallaxIndexNovedades{
+    font-size: 30px !important;
+    position: relative !important;
+    top:210px !important;
+  }
+    .containerSeccion__seccionTitulo{
+          padding-top: 40px !important;
+          padding-bottom: 50px !important;
+          font-size: 50px !important;
+          justify-content: center !important;
+      }
+   
+      .containerSeccion{
+          padding-top: 0% !important;
+          font-size: 20px; 
+          padding-bottom: 15px;
+          text-align: center;        
+      }
+   
+        .seccion__imgSeccion{    
+          width: 200px !important;       
+          height: 100% ;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;  
+          top: 50px;
+          }  
+
+      /*NOVEDADES */    
+    .containerCards{
+         background-color: white;
+         
+     }
+     .novedadesCards{
+        position: relative;
+         left: 70px;
+       
+     }
+    .textNovedades{
+        height: 50px;
+}
+   
+    .containerAutor{
+        height: 1500px;
+        display: flex;
+        justify-content: center;    
+      
+    }
+
+    .imgAutor {
+        width: 220px;
+        padding: 20px;
+    }
+     .containerNovedades{
+         display: flex;
+         justify-content: center;
+     }
+
+    
+     .carousel-inner img {
+      height:100% !important;
+      padding: 1px !important;   
+  }
+
+  .carousel-inner{
+      width: 100%;
+      padding-bottom: 5px;
+  }
+
+  .carousel-indicators{
+      display: none;
+  }
+      .card{
+          width: 200px !important;
+          margin-top: 0%;   
+          margin: 2px !important    ;   
+          border-radius: 0px !important;
+     }
+      .card-img-top{
+          position: relative;
+          top: 15px;
+          left: 15px;
+          width:150px ;
+          padding: 0px !important   ;
+     }
+      .card-text{
+          display: none;
+      }
+
+      /* FIN NOVEDADES */
+
+
+    /* NOSOTROS */
+
+    .imgNosotros{
+        width: 200px;  
+        position: relative;
+        bottom: 30px;
+}
+
+    .pNosotros{   
+        text-align: center;
+        text-indent: 10px;
+        padding-right: 20px;  
+        padding-left: 20px;
+        padding-bottom: 30px;
+  }
+    .imgPigue{
+        width: 100%;
+}
+
+    .historiaNosotros{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .testimonioTitulo{
+        font-size: 35px !important;
+        padding: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+}
+
+    .parrafoTetsimonio{
+        text-align: justify;
+    }
+
+    .flexContainer{
+        display: flex;
+        justify-content: center;
+}
+
+    .containerTestimonio{
+        margin: 10px;
+}
+    /* FIN NOSOTROS */
+
+    /* CONTACTO */ 
+    
+.mapaGoogle{
+    width: 100%;
+    height:400px;
+    padding: 0px;
+} 
+
+.titleDondeEstamos{
+    text-align: center;
+    
+}
+
+  /* FIN CONTACTO */
+
+  /* PRODUCTOS */ 
+    .card-body{
+       padding: 5px !important;
+       
+    }
+
+  .sectionProductos{
+     margin-left: auto;
+     margin-right: auto;
+  }
+  .cardProducto{
+    padding: 0px !important;
+    margin-right: 5px !important;
+    width: 100%;
+    border: 0px;
+  }
+
+  .conjuntoProducto{
+    padding: 0px !important; 
+    margin: 0px;
+    height: 600px;
+  }
+
+  .containerProductos{
+      padding: 0px !important   ;
+      width: 100%;
+      overflow: hidden;   
+  }
+  .card-footer{
+    padding: 0px !important;
+}
+  .img-tienda{
+   width: 150px !important;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 15px;   
+  }
+
+  .productoNombre{
+      padding-right: 15px;
+    //   font-size: 18px;
+     
+  }
+
+  /* FIN PRODUCTOS */
+}
+     
+@media only screen and (min-width:1020px) and (max-width:1280px) {
+
+  .textoParallaxContact{
+    font-family: "Blacksword"; 
+  }
+
+  .titleDondeEstamos{
+    font-family: "Montserrat-Italic" ;
+    font-size: 40px;
+   
+    
+  }
+
+  .titleContacto{
+    font-family: "Montserrat-SemiBoldItalic";
+  }
+
+  .contacto_p{
+    font-family: "Montserrat-Italic" ;
+    font-size: 20px;
+  }
+
+
+
+  /* FIN CONTACTOS */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+  /* NOSOTROS */
+  .texto_ParallaxNosotros{
+    font-family: "Blacksword";
+    font-size: 60px;  
+  }
+
+  .historiaNosotros{
+    font-family: "Montserrat-SemiBoldItalic";
+  }
+  .pNosotros{
+    font-family: "Montserrat-Italic" ;
+    font-size: 18px;
+  }
+
+  .testimonioTitulo{
+    font-family: "Blacksword";
+    font-size: 50px;
+  }
+
+  .parrafoTestimonio{
+    font-family: "Montserrat-Italic";
+  }
+
+  .nombreTestimonio{
+    font-family: "Montserrat-Italic";
+  }
+  /* FIN NOSOTROS */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* PRODUCTOS */
+.textoParallaxProductos{
+  font-family: "Blacksword";
+  font-size: 60px;  
+}
+
+/* FIN PRODUCTOS */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* INDEX */
+.navbar-nav{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+.textoParallaxIndex{
+  font-family: "Blacksword";  
+  font-size: 50px;
+}
+
+.textoparallax{
+  font-family: "Montserrat-Italic";
+}
+
+.containerSeccion__seccionTitulo{
+  font-family: "Montserrat-Italic";
+  
+  font-size: 40px;
+ 
+}
+
+.containerSeccion__seccionDescripcion{
+  font-family: "Montserrat-SemiBoldItalic";
+  font-size:18px;
+}
+.feedTitulo{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+
+
+/* FIN INDEX */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* NOVEDADES */
+
+.textosParallaxIndexNovedades{
+  font-family:"Blacksword"  ;
+  font-size: 60px;
+}
+.tituloNovedades{
+  font-family: "Montserrat-SemiBoldItalic";
+ 
+
+}
+
+.tituloAutor{
+  font-family:"Montserrat-SemiBoldItalic"  ;
+  
+}
+/* FIN NOVEDADES */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+  /* FOOTER */
+  .creador__creadorPagina{
+    font-family: "Montserrat-Italic" ;
+  }
+
+  .footerRow__tituloFooter{
+      font-family: "Blacksword"; 
+      font-size: 30px;
+  }
+
+  .cophyright__copy{
+    font-family: "Montserrat-Italic" ;
+    font-size: 14px;
+  }
+
+.instagram-media{
+    padding-right: 40px !important;    
+    margin-top: 50px !important;
+    width: 100% !important;
+}
+
+.containerTestimonio{
+    width: 350px;
+}
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgAutor{
+    width:210px;
+    height: auto;
+    border-radius: 20px 30px 30px 30px;
+   -webkit-border-radius: 20px 30px 30px 30px;
+   -moz-border-radius: 20px 30px 30px 30px;
+  }
+
+  .novedadesCards-fluid {
+    display: flexbox;
+    justify-content: center;
+  }
+
+ 
+  .containerAutor{
+    background-color: rgb(13, 13, 14);
+    padding: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 800px; 
+  }
+}
+
+
+@media only screen and (min-width:1920px) and (max-width:1080px) {
+  
+  .textoParallaxContact{
+    font-family: "Blacksword"; 
+  }
+
+  .titleDondeEstamos{
+    font-family: "Montserrat-Italic" ;
+    font-size: 40px;
+  }
+
+  .titleContacto{
+    font-family: "Montserrat-SemiBoldItalic";
+  }
+
+  .contacto_p{
+    font-family: "Montserrat-Italic" ;
+    font-size: 20px;
+  }
+
+
+
+  /* FIN CONTACTOS */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+  /* NOSOTROS */
+  .texto_ParallaxNosotros{
+    font-family: "Blacksword";
+    font-size: 60px;  
+  }
+
+  .historiaNosotros{
+    font-family: "Montserrat-SemiBoldItalic";
+  }
+  .pNosotros{
+    font-family: "Montserrat-Italic" ;
+    font-size: 18px;
+  }
+
+  .testimonioTitulo{
+    font-family: "Blacksword";
+    font-size: 50px;
+  }
+
+  .parrafoTestimonio{
+    font-family: "Montserrat-Italic";
+  }
+
+  .nombreTestimonio{
+    font-family: "Montserrat-Italic";
+  }
+  /* FIN NOSOTROS */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* PRODUCTOS */
+.textoParallaxProductos{
+  font-family: "Blacksword";
+  font-size: 60px;  
+}
+
+.card-body{
+  padding: 5px !important;
+}
+
+.sectionProductos{
+margin-left: auto;
+margin-right: auto;
+}
+.cardProducto{
+padding: 0px !important;
+margin-right: 5px !important;
+width: 100%;
+border: 0px;
+}
+
+.conjuntoProducto{
+padding: 0px !important; 
+margin: 0px;
+height: 680px !important;
+
+}
+
+.containerProductos{
+ padding: 0px !important   ;
+ width: 100%;
+ overflow: hidden;   
+}
+.card-footer{
+padding: 0px !important;
+}
+.img-tienda{
+width: 150px !important;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;   
+}
+
+.productoNombre{
+ padding-right: 15px;
+//   font-size: 18px;
+
+}
+
+/* FIN PRODUCTOS */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* INDEX */
+.navbar-nav{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+.textoParallaxIndex{
+  font-family: "Blacksword";  
+  font-size: 50px;
+}
+
+.textoparallax{
+  font-family: "Montserrat-Italic";
+}
+
+.containerSeccion__seccionTitulo{
+  font-family: "Montserrat-Italic";
+  
+  font-size: 40px;
+ 
+}
+
+.containerSeccion__seccionDescripcion{
+  font-family: "Montserrat-SemiBoldItalic";
+  font-size:18px;
+}
+.feedTitulo{
+  font-family: "Montserrat-SemiBoldItalic";
+}
+
+
+/* FIN INDEX */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* NOVEDADES */
+
+.textosParallaxIndexNovedades{
+  font-family:"Blacksword"  ;
+  font-size: 60px;
+}
+.tituloNovedades{
+  font-family: "Montserrat-SemiBoldItalic";
+ 
+
+}
+
+.tituloAutor{
+  font-family:"Montserrat-SemiBoldItalic"  ;
+  
+}
+/* FIN NOVEDADES */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+  /* FOOTER */
+  .creador__creadorPagina{
+    font-family: "Montserrat-Italic" ;
+  }
+
+  .footerRow__tituloFooter{
+      font-family: "Blacksword"; 
+      font-size: 30px;
+  }
+
+  .cophyright__copy{
+    font-family: "Montserrat-Italic" ;
+    font-size: 14px;
+  }
+  .home{
+    background-size: cover;
+     background-attachment: fixed;
+    background-position: left;
+    background-repeat:repeat;
+    height: 850px;
+    width:100% !important; 
+}
+ 
+    .home-contacto {
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 900px;
+      }
+
+      .homeNosotros {
+        background-image: url("../assets/images/nosotros1.jpg");
+        background-size:cover;
+        background-attachment: fixed;
+        background-position:center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 900px;
+      }
+
+      .homeProductos {
+        background-image: url("../assets/images/nosotros.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 900px;
+      }
+     
+      .home{
+        background-size: cover;
+         background-attachment: fixed;
+        background-position: left;
+        background-repeat:repeat;
+        height: 900px;
+        width:100% !important; 
+    }
+        .containerTestimonio{
+            width: 350px;
+    }
+        .flexContainer{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+}
+
+        .titleDondeEstamos{
+            position: relative;
+            top: 10px;
+}
+
+  
+   
+
+}

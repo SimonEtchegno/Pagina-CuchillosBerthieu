@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Aquí nos podras contactar y decirnos cual es tu inquietud.">
+		<meta name="keywords"  content="ENVIO, DOMICILIO, ONLINE, BERTHIEU,CONTACTO,EMAIL,REDES">
+		<meta name="author" content="Simón Etchegno">
+		<link rel="shortcut icon" href="favicon.png">
+		 <!-- Bootstrap Icons-->
+		 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="../assets/images/logo.png">
+		<!-- Fonts -->
+		
+		
+		<!-- Fin fonts -->
+
+		<!-- SCRIPT GOOGLE ANALYTICS SIMON -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-VCEFY0BPG0"></script>
+			<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'G-VCEFY0BPG0');
+			</script>
+		<!-- fin -->
+
+		
+		<title>© Cuchillos Berthieu - Contacto</title>
+		<!-- css AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		 <!-- BOOSTRAP -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+	
+	
+		<!-- nuestro CSS -->
+		<link rel="stylesheet" href="../css/estilo.css">
+		<link rel="stylesheet" href="../css/fonts.css">
+	</head>
+
+<body>
+	<header class="home-contacto">
+		<!-- <div id="loader-page"></div>
+		<script type="text/javascript">
+			window.onload = function(){
+				var contenedor = document.getElementById('loader-page');
+				contenedor.style.visibility = 'hidden';
+				contenedor.style.opacity = '0'; 
+			}
+		
+		</script> -->
+		<div class="container-fluid">
+			<div class="row">	
+				<div class="col-lg-12 col-xs-8">
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<div class="container-fluid">
+							<a  href="../index"><img class="img"  src="../assets/images/logo.png" height="100" alt="logo-sitio web"></a>
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						  </button>
+						  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<div class="navbar-nav">
+							  <a class="nav-link active" aria-current="page" href="../index">Inicio</a>
+							  <a   class="nav-link" href="../pages/Nosotros">Nosotros</a>
+							  <a class="nav-link" href="../pages/productos">Tienda</a>
+							  <a class="nav-link" href="./Contacto">Contacto</a>
+							  <a class="nav-link" href="../pages/novedades">Novedades</a>
+							</div>
+						  </div>
+						</div>
+					  </nav>
+				</div>
+			</div>	
+		</div>		
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-12 col-lg-12 col-xs-12">
+					<h1 class="textoParallaxContact" data-aos="fade-up" data-aos-duration="2000">Contacto</h1> 				
+				</div>
+			<a href="#contact">	<svg data-aos="fade-up" data-aos-duration="600" xmlns="http://www.w3.org/2000/svg" width="50" height="70" fill="currentColor" class="bi bi-chevron-down swipeDownContacto" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+			  </svg>	</a>	
+			</div>
+		</div>
+	</header>		
+	<!-- Cierra header -->
+
+	<!-- Inicio contenido -->	
+			<section class="page-section" id="contact">
+				<div class="container container__Contact px-4 px-lg-5">
+					<div class="row gx-4 gx-lg-5 justify-content-center">
+						<div class="col-lg-8 col-xl-6 text-center">
+							<h2 class="mt-0 titleContacto">Contactanos</h2>
+							<hr class="divider" />
+							<p class="text-muted mb-5 contacto_p">¿Querés dejarnos un mensaje? ¡Te vamos a responder lo antes posible!. También podes mandarnos un email, llamarnos o hablarnos por Whatsapp 
+						</div>
+					</div>
+					<div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+						<div class="col-lg-6">	
+							<form name="frmContacto" id="contactForm">
+								<form action="sendbymail.php" method="post">			
+										<div class="form-floating mb-3">
+											<input class="form-control" id="name"  type="text"  name="name" placeholder="Nombre y Apellido" required="" />
+											<label for="name" >Nombre completo</label>
+										</div>
+								
+										<div class="form-floating mb-3">
+											<input class="form-control" id="email"  type="email" name="mail" placeholder="ejemplo@correo.com" required="" />
+											<label for="mail" >Email</label>						
+										</div>
+							
+										<div class="form-floating mb-3">
+											<input class="form-control" id="phone"  type="tel" name="phone" placeholder="(123) 456-7890" data-sb-validations="required" />
+											<label for="phone" >Número de telefono</label>
+										</div>
+							
+										<div class="form-floating mb-3">
+											<textarea class="form-control" id="message" type="text"  name="message" placeholder="Mensaje" required=""></textarea>
+											<label for="message" >Mensaje</label>
+										</div>																						
+											<div class="d-grid"><button class="btn btn-primary" id="submitButton" name="submit" type="submit">Enviar</button></div>
+									</form>
+							</form>
+						</div>
+					</div>
+
+					<div class="row gx-4 gx-lg-5 justify-content-center">
+						<div class="col-lg-4 text-center mb-5 mb-lg-0 containerCelular">
+							<i class="bi-phone fs-2 mb-3 text-muted"></i>
+							<div class="contactoNumero"><a class="contactoNumero" target="_BLANK" href="https://api.whatsapp.com/send?phone=542923568520">+54 2923 56-8520</a></div>
+						</div>
+					</div>
+				</div>
+			<!-- INICIA MAP -->
+		<div class="backgroundMap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h2 class="titleDondeEstamos">¿Donde Estamos?</h2>
+						<hr class="divider"/>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div class="container">
+				<div class="col-lg-12 col-xs-12 col-md-12 ">		
+					<iframe class="mapaGoogle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1580.7652643583135!2d-62.414859251203886!3d-37.58967123279128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eb95da9b6ec763%3A0x11c8968a64e0675b!2sCuchillos%20Berthieu!5e0!3m2!1ses!2sar!4v1623936895856!5m2!1ses!2sar" 
+				 		style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>	
+		</div>	
+			<!-- CIERRE MAP -->
+			<!-- Cierre form -->  		
+		</article>	
+	</section>
+	<!-- Cierre contenido -->
+
+<!-- Inicio footer -->	
+<footer class="container-fluid">	
+	<div class="row footerRow">
+		<div class="col-lg-12">
+			<h2 class="footerRow__tituloFooter">CuchillosBerthieu</h2>
+		</div>			
+	</div>
+
+	<div class="row ">
+		<div class="Redes col-lg-12">
+			<a target="_blank" href="https://www.facebook.com/Cuchillosartesanalesberthieu/" ><img class="Redes__img-footer img-mapa"  data-aos="fade-right"data-aos-duration="2000" src="../assets/images/facebook.png"  alt="Contacto" width="60"></a>
+
+			<a target="_blank" href="https://www.instagram.com/cuchillosberthieu/"><img class="Redes__img-footer Redes__img-instagram"  data-aos="fade-right"data-aos-duration="2000"  width="60" src="../assets/images/instagram.png"
+			 alt="logo-sitio web"></a>
+	
+			<a  target="_blank" href="https://api.whatsapp.com/send?phone=542923568520"><img  class="Redes__img-footer Redes__img-whatsapp"  data-aos="fade-right"data-aos-duration="2000"  width="60" src="../assets/images/whatsapp (3).png " 
+			alt="whatsapp"></a>
+		</div>			
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 cophyright">
+			<p class="cophyright__copy">© 2022 Cuchillos Berthieu / Todos los derechos reservados</p>
+		</div>			
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 creador">
+			<p class="creador__creadorPagina">
+				<a class="creadorPagina__creador">Developed By Simón Etchegno<span>&#160;</span></a>
+			</p>		
+		</div>			
+	</div>						
+</footer>
+
+<!-- Cierra footer -->
+
+
+	<!-- SCRIPT -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	
+	<!-- CIERRE SCRIPT -->
+	<!-- SCRIPT BOOSTRAP -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
+	<!-- CIERRE SCRIPT -->
+</body>
+
+</html>

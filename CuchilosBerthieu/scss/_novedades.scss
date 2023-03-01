@@ -1,0 +1,123 @@
+/* INICIO SITIO NOVEDADES */
+$alto : 800px;
+.home-novedades {
+    background-image: url(../assets/images/parallaxnov.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: $alto;
+  }
+
+  .textosParallaxIndexNovedades{
+    position: relative;
+    top: 220px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .swipeDownNovedades{
+    position: relative;  
+    top:480px;
+    color: rgb(255, 255, 255);
+    animation-name: pulse;
+    animation: pulse 2s 3s ease-out infinite;
+    transition-delay:1.7s;
+  }
+
+ .dividerNovedades{
+  height: 0.8rem;
+  max-width: 3.40rem;
+  margin: 1.5rem auto;
+  background-color: #616160;
+  opacity: 1;
+  padding: 1px;
+
+ }
+ 
+  .tituloNovedades{
+    display: inline-block;
+    color: rgb(3, 3, 3);
+    padding-top: 50px;
+  }
+
+.cabosNovedades{
+  padding-top: 10px;
+  padding-bottom: 100px;
+  
+}
+
+.novedadesCards-fluid {
+  display: flexbox;
+}
+.containerCards{
+  // background: linear-gradient(90deg, #000000 0%, #1b1b1b 100%);  
+  background-color: black;
+  margin-bottom: 100px;
+  height: 880px;
+  margin-top: 130px;
+  
+}
+.imgAutor{
+  width: 280px;
+  height: auto;
+  border-radius: 20px 30px 30px 30px;
+ -webkit-border-radius: 20px 30px 30px 30px;
+ -moz-border-radius: 20px 30px 30px 30px;
+}
+.imgAutor1{ 
+  transition-delay: 0.3s;
+}
+
+.imgAutor2{ 
+  transition-delay: 0.5s;
+}
+
+.imgAutor3{ 
+  transition-delay: 0.9s;
+}
+
+.imgAutor4{ 
+  transition-delay: 1.2s;
+}
+
+.tituloAutor{
+  padding-top: 60px;
+  color: #ffffff;
+ 
+}
+
+.containerAutor{
+  background-color: rgb(13, 13, 14);
+  padding: 80px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 855px; 
+}
+.card{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.808);
+}
+
+.dividerNovedadesAutor{
+  height: 0.2rem;
+  max-width: 3.0rem;
+  margin: 1.5rem auto;
+  background-color: #ffffff;
+  opacity: 1;
+  margin-bottom:50px;
+}
+.dividerNovedadesCard{
+  height: 0.2rem;
+  max-width: 3.0rem;
+  margin: 1.5rem auto;
+  background-color: #ffffff;
+  opacity: 1;
+
+ }
+/* FIN SITIO NOVEDADES */

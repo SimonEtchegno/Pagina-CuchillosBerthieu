@@ -1,0 +1,1432 @@
+/* INICIO INDEX */
+
+.tituloParallax2{
+  color: rgb(255, 255, 255);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: oblique;
+  font-size: 40PX;
+  position: relative;
+  top: 140px;
+  left: 100px;
+  display: inline;
+}
+.img-hover-zoom{
+  overflow: hidden;
+  display: flex;
+  align-items:center;
+  
+}
+
+.img-hover-zoom img:hover{
+  
+  filter: grayscale(0%);
+}
+.imgPrincipales{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 200px;
+  filter: grayscale(100%);
+  transition: transform .8s, filter 1.10s ease-in-out;
+  width:380px;
+  padding: 0px;
+
+ }
+
+.tituloVideo{
+  text-align: center;
+  margin: 30px;
+  font-family: "Blacksword";
+}
+.videoCuchillos{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.imgParallaxx{
+  
+  background: url("../assets/images/combinado.jpg");
+  background-attachment: fixed;
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+  width: 100% !important;
+  margin-top: 220px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  filter:contrast(50%);
+  filter:brightness(0.8);
+ 
+  }
+  
+
+
+.home {
+  background: url("../assets/images/pexels-luis-quintero-1659746 (1).jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  height: 820px;
+  width: 100% !important; 
+  margin-bottom: 50px;
+}
+  
+
+.navbar-nav {
+  margin-left: auto;
+  font-size: 20px;
+  color: white;
+  transition-delay: 1.5s; }
+
+.nav-link {
+  color: white !important; }
+
+.nav-link:hover {
+  color: #a5a5a5 !important; }
+
+.textosParallax {
+  position: relative;
+  top: 220px;
+  color: whitesmoke; }
+
+.textoparallax {
+  color: white;
+  background-color: #c55d08;
+  animation: pulse 2s 3s ease-out infinite;
+  font-size: 20px;
+  transition-delay: 1.5s;
+  padding: 15px;
+  border-radius: 20px 20px 20px 20px;
+  transition-delay: 1s;
+  width: 200px;
+  display: inline-block;
+  margin-top: 15px; }
+
+.textoparallax:hover {
+  color: black; }
+
+.swipeDown {
+  position: relative;
+  top: 200px;
+  color: #a5a5a5;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 1.9s; }
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none; }
+  50% {
+    opacity: .9;
+    transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+.linkParrafo {
+  list-style: none;
+  text-decoration: none; }
+
+/* SECCION */
+.seccion__imgSeccion {
+  position: relative;
+  top: 100px; }
+
+.containerSeccion__seccionDescripcion {
+  padding: 30px;
+  display: flex;
+  align-items: center; }
+
+.containerSeccion__seccionTitulo {
+  position: relative;
+  top: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start; }
+
+.instagram-media {
+  margin-bottom: 50px !important;
+  margin-top: 50px !important;
+  width: 100% !important;
+  height: 1000px !important; }
+
+.containerSeccion {
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  padding-top: 50px;
+  padding-bottom: 80px; }
+
+.feedTitulo {
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  top: 25px;
+  padding-bottom: 25px;
+  color: black; }
+
+.feedTitulo:hover {
+  color: #616160; }
+
+.feedLink {
+  text-decoration: none;
+  list-style: none; }
+
+.dividerIndex {
+  height: 0.8rem;
+  max-width: 3.40rem;
+  margin: 1.5rem auto;
+  background-color: #616160;
+  opacity: 1;
+  padding: 1px; }
+
+
+
+
+/* FIN SECCION */
+.carousel-inner img {
+  padding-top: 50px;
+  height: 800px;
+  width: 100%;
+  padding: 80px; }
+
+.carousel-indicators {
+  position: relative;
+  top: 700px; }
+
+/* INICIO FOOTER */
+footer {
+  background-color: #b3b3b3;
+  padding: 10px;
+  margin-top: 35px; }
+
+.Redes {
+  display: flex;
+  justify-content: center; }
+
+.Redes__img-footer {
+  padding: 15px;
+  transition: 1s; }
+
+.Redes__img-footer:hover {
+  transform: translateY(-10px); }
+
+.footerRow__tituloFooter {
+  display: flex;
+  justify-content: center; }
+
+.cophyright__copy {
+  display: flex;
+  justify-content: center; }
+
+.creador__creadorPagina {
+  display: flex;
+  justify-content: center; }
+
+.creadorPagina__creador {
+  position: relative;
+  left: 5px;
+  text-decoration: none;
+  color: #000000; }
+
+.creadorPagina__creador span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: #b3b3b3;
+  border-left: 2px solid #959595;
+  animation: escribir 3s steps(36) infinite alternate; }
+
+@keyframes escribir {
+  from {
+    width: 100%; }
+  to {
+    width: 0; } }
+
+.creadorPagina__creador:hover {
+  color: white !important; }
+
+/* FIN FOOTER */
+/* FIN INDEX */
+#loader-page {
+  position: fixed;
+  z-index: 25000;
+  background: white;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 5s ease; }
+
+#loader-page::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #3296b0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-left: 2px solid rgba(50, 150, 176, 0);
+  border-top: 2px solid rgba(50, 150, 176, 0);
+  animation: rotarload 1s linear infinite;
+  transform: rotate(0deg); }
+
+@keyframes rotarload {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+#loader-page::after {
+  content: "";
+  position: absolute;
+  border: 2px solid rgba(50, 150, 176, 0.5);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-left: 2px solid rgba(50, 150, 176, 0);
+  border-top: 2px solid rgba(50, 150, 176, 0);
+  animation: rotarload 1s ease-out infinite;
+  transform: rotate(0deg); }
+
+/* INICIO SITIO PRODUCTOS */
+.homeProductos {
+  background-image: url("../assets/images/productos.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px; }
+
+.textoParallaxProductos {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 120px;
+  color: whitesmoke; }
+
+.InstruccionesTienda {
+  padding: 5px;
+  color: #0c0c0c; }
+
+.tituloInstruccionesTienda {
+  padding-top: 20px; }
+
+.listaInstruccionesTienda {
+  padding-top: 60px; }
+
+.swipeDownProductos {
+  position: relative;
+  top: 350px;
+  color: white;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 1.7s; }
+
+.img-tienda {
+  border-radius: 40px 40px 40px 40px;
+  padding: 20px;
+  -webkit-transition: all 0.8s ease; }
+
+.img-tienda:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.1); }
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px; }
+
+#form p {
+  text-align: center; }
+
+#form label {
+  font-size: 20px; }
+
+input[type="radio"] {
+  display: none; }
+
+label {
+  color: grey; }
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override; }
+
+label:hover,
+label:hover ~ label {
+  color: orange; }
+
+input[type="radio"]:checked ~ label {
+  color: orange; }
+
+.conjuntoProducto {
+  height: 600px; }
+
+/* INICIO PAGINACION*/
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+
+/* CIERRE PAGINACION*/
+
+.card-body{
+  font-size: 23.2px;
+
+}
+
+.botonProductos{
+  width:50%;
+}
+/* FIN PRODUCTOS */
+/* INICIO SITIO NOVEDADES */
+.home-novedades {
+  background-image: url(../assets/images/parallaxnov.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px; }
+
+.textosParallaxIndexNovedades {
+  position: relative;
+  top: 220px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  position: relative; }
+
+.swipeDownNovedades {
+  position: relative;
+  top: 480px;
+  color: white;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 1.7s; }
+
+.dividerNovedades {
+  height: 0.8rem;
+  max-width: 3.40rem;
+  margin: 1.5rem auto;
+  background-color: #616160;
+  opacity: 1;
+  padding: 1px; }
+
+.tituloNovedades {
+  display: inline-block;
+  color: #030303;
+  padding-top: 50px; }
+
+.cabosNovedades {
+  padding-top: 10px;
+  padding-bottom: 100px; }
+
+.novedadesCards-fluid {
+  display: flexbox; }
+
+.containerCards {
+  background-color: black;
+  margin-bottom: 100px;
+  height: 880px;
+  margin-top: 130px; }
+
+.imgAutor {
+  width: 280px;
+  height: auto;
+  border-radius: 20px 30px 30px 30px;
+  -webkit-border-radius: 20px 30px 30px 30px;
+  -moz-border-radius: 20px 30px 30px 30px; }
+
+.imgAutor1 {
+  transition-delay: 0.3s; }
+
+.imgAutor2 {
+  transition-delay: 0.5s; }
+
+.imgAutor3 {
+  transition-delay: 0.9s; }
+
+.imgAutor4 {
+  transition-delay: 1.2s; }
+
+.tituloAutor {
+  padding-top: 60px;
+  color: #ffffff; }
+
+.containerAutor {
+  background-color: #0d0d0e;
+  padding: 80px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 855px; }
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px;
+  }
+
+.dividerNovedadesAutor {
+  height: 0.2rem;
+  max-width: 3.0rem;
+  margin: 1.5rem auto;
+  background-color: #ffffff;
+  opacity: 1;
+  margin-bottom: 50px; }
+
+.dividerNovedadesCard {
+  height: 0.2rem;
+  max-width: 3.0rem;
+  margin: 1.5rem auto;
+  background-color: #ffffff;
+  opacity: 1; }
+
+/* FIN SITIO NOVEDADES */
+.home-contacto {
+  background-image: url("../assets/images/contacto (2).jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 850px !important; }
+
+.swipeDownContacto {
+  position: relative;
+  top: 480px;
+  color: white;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 1.7s; }
+
+.textoParallaxContact {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 240px;
+  color: whitesmoke;
+  font-size: 60px; }
+
+.titleDondeEstamos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  font-family: "Blacksword";
+  position: relative;
+  top: 20px;
+  color: white; }
+
+.mapaGoogle {
+  width: 100%;
+  height: 400px;
+  border-style: ridge;
+  border: 2px solid #020202;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  margin-bottom: 50px; }
+
+.backgroundMap {
+  background-image: url(../assets/images/mapa.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 80px; }
+
+.titleContacto {
+  font-size: 40px;
+  padding-top: 50px; }
+
+.container__Contact {
+  height: 830px; }
+
+.contactoNumero {
+  font-size: 25px;
+  padding: 20px;
+  position: relative;
+  bottom: 10px;
+  list-style: none;
+  text-decoration: none;
+  color: black; }
+
+.contactoNumero:hover {
+  color: #695545; }
+
+#submitButton {
+  background-color: #695545;
+  border-radius: 50px 50px;
+  height: 65px; }
+
+.containerCelular {
+  position: relative;
+  bottom: 40px; }
+
+hr.divider {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #695545;
+  opacity: 1; }
+
+.bi-phone::before {
+  content: "\f4e7"; }
+
+[class^="bi-"]::before, [class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.homeNosotros {
+  background-image: url("../assets/images/nosotros1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px; }
+
+.textoParallaxNosotros {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 220px;
+  color: whitesmoke; }
+
+.swipeDownNosotros {
+  position: relative;
+  top: 250px;
+  color: white;
+  animation-name: pulse;
+  animation: pulse 2s 3s ease-out infinite;
+  transition-delay: 1.7s; }
+
+.historiaNosotros {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 50px; }
+
+.pNosotros {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px; }
+
+.conteinerImagenHistoria {
+  display: flex;
+  justify-content: center; }
+
+.imgNosotros {
+  width: 300px;
+  margin-top: 50px; }
+
+.imgPigue {
+  border-radius: 38px 52px 52px 52px;
+  -webkit-border-radius: 38px 52px 52px 52px;
+  -moz-border-radius: 38px 52px 52px 52px;
+  margin-bottom: 100px;
+  width: 100%;
+  display: block;
+  transition: transform .3s, filter 1.8s ease-in-out;
+  filter: grayscale(100%); }
+
+.imgPigue:hover {
+  filter: grayscale(0%); }
+
+.containerTestimonio {
+  width: 400px;
+  height: 500px;
+  background-color: #f2f2f2;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 100px;
+  border-radius: 20px 20px 20px 20px; }
+
+.containerTestimonio:hover {
+  filter: brightness(90%);
+  -webkit-transition: all 1.2s ease; }
+
+.imgTestimonio1 {
+  width: 93px;
+  height: 93px;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url(../assets/images/testimonio2.jpg);
+  margin-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 60px;
+  border: 5px solid white; }
+
+.imgTestimonio2 {
+  width: 93px;
+  height: 93px;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url(../assets/images/testimonio.jpg);
+  margin-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 60px;
+  border: 5px solid white; }
+
+.imgTestimonio3 {
+  width: 93px;
+  height: 93px;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url(../assets/images/testimonio3.jpg);
+  margin-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 60px;
+  border: 5px solid white; }
+
+.flexTitulo {
+  display: flex;
+  justify-content: center; }
+
+.testimonioTitulo {
+  padding: 70px;
+  color: #424242;
+  position: relative;
+  float: left;
+  padding-top: 110px; }
+
+.testimonioTitulo span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: white;
+  border-left: 6px solid #959595;
+  animation: escribir 4s steps(30) infinite alternate; }
+
+@keyframes escribir {
+  from {
+    width: 100%; }
+  to {
+    width: 0; } }
+
+.parrafoTestimonio {
+  text-align: center;
+  padding: 30px;
+  text-align: justify;
+  line-height: 25pt;
+  color: #4d4d4d; }
+
+.nombreTestimonio {
+  text-align: center;
+  color: #7c7b7b;
+  font-size: 20px; }
+
+.comillasTestimonio {
+  width: 20px;
+  padding: 2px; }
+
+@media only screen and (min-width: 300px) and (max-width: 910px) and (max-height: 900px) {
+  /* INICIA CONTACTOS */
+  .textoParallaxContact {
+    font-family: "Blacksword"; }
+  .titleDondeEstamos {
+    font-family: "Montserrat-Italic";
+    font-size: 40px; }
+  .titleContacto {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .contacto_p {
+    font-family: "Montserrat-Italic";
+    font-size: 20px; }
+  /* FIN CONTACTOS */
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+  /* NOSOTROS */
+  .texto_ParallaxNosotros {
+    font-family: "Blacksword";
+    font-size: 60px; }
+  .historiaNosotros {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .pNosotros {
+    font-family: "Montserrat-Italic";
+    font-size: 18px; }
+  .testimonioTitulo {
+    font-family: "Blacksword";
+    font-size: 50px; }
+  .parrafoTestimonio {
+    font-family: "Montserrat-Italic"; }
+  .nombreTestimonio {
+    font-family: "Montserrat-Italic"; }
+  /* FIN NOSOTROS */
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+  /* PRODUCTOS */
+  .textoParallaxProductos {
+    font-family: "Blacksword";
+    font-size: 60px; }
+
+
+    .card-body{
+      font-size: 23.2px;
+    
+    }
+  /* FIN PRODUCTOS */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* INDEX */
+  .navbar-nav {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .textoParallaxIndex {
+    font-family: "Blacksword";
+    font-size: 50px; }
+  .textoparallax {
+    font-family: "Montserrat-Italic"; }
+  .containerSeccion__seccionTitulo {
+    font-family: "Montserrat-Italic";
+    font-size: 40px; }
+  .containerSeccion__seccionDescripcion {
+    font-family: "Montserrat-SemiBoldItalic";
+    font-size: 18px; }
+  .feedTitulo {
+    font-family: "Montserrat-SemiBoldItalic"; }
+
+    .imgPrincipales{
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 10px;
+      filter: grayscale(100%);
+      transition: transform .8s, filter 1.10s ease-in-out;
+      width:300px;
+      padding: 0px;
+   
+    
+     }
+
+     .rowImg{
+      display: flex;
+      justify-content:space-around;
+     }
+
+
+     .img-hover-zoom{
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      
+    }
+
+
+    
+.imgParallaxx{
+  
+  background: url("../assets/images/combinado.jpg");
+  background-attachment: fixed;
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100% !important;
+  margin-top: 220px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  filter:contrast(50%);
+  filter:brightness(0.8);
+ 
+  }
+
+  .tituloParallax2{
+    font-size: 30px;
+  }
+  
+
+  .videoCuchillos{
+    height: 400px !important;
+  }
+
+  .feedTitulo{
+    margin-top: 270px;
+  }
+  /* FIN INDEX */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* NOVEDADES */
+  .textosParallaxIndexNovedades {
+    font-family: "Blacksword";
+    font-size: 60px; }
+  .tituloNovedades {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .tituloAutor {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  /* FIN NOVEDADES */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* FOOTER */
+  .creador__creadorPagina {
+    font-family: "Montserrat-Italic"; }
+  .footerRow__tituloFooter {
+    font-family: "Blacksword";
+    font-size: 30px; }
+  .cophyright__copy {
+    font-family: "Montserrat-Italic";
+    font-size: 14px; }
+  /* FIN FOOTER */
+  .swipeDown {
+    position: relative;
+    top: 110px;
+    color: white; }
+  .swipeDownProductos {
+    position: relative;
+    top: 300px;
+    color: white; }
+  .swipeDownContacto {
+    position: relative;
+    top: 400px;
+    color: white; }
+  .swipeDownNovedades {
+    position: relative;
+    top: 350px;
+    color: white; }
+  .swipeDownNosotros {
+    position: relative;
+    top: 150px;
+    color: white; }
+  .tituloFeed {
+    display: none; }
+  .textoParallaxIndex {
+    font-size: 35px !important; }
+  .textosParallax {
+    font-size: 10px !important;
+    position: relative !important;
+    top: 150px !important;
+    color: whitesmoke; }
+  .textoParallaxProductos {
+    font-size: 30px !important;
+    position: relative !important;
+    top: 100px !important; }
+  .texto_ParallaxNosotros {
+    font-size: 30px !important;
+    position: relative !important;
+    bottom: 50px !important; }
+  .textoParallaxContact {
+    font-size: 30px;
+    position: relative !important;
+    top: 190px !important; }
+  .home-contacto {
+    background-image: url(../assets/images/contactomobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px; }
+  .homeProductos {
+    background-image: url("../assets/images/tienda.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px; }
+  .home-novedades {
+    background-image: url(../assets/images/carrousel5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px; }
+  .home {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: repeat;
+    height: 850px;
+    width: 100% !important; }
+  .textosParallaxIndexNovedades {
+    font-size: 30px !important;
+    position: relative !important;
+    top: 210px !important; }
+  .containerSeccion__seccionTitulo {
+    padding-top: 40px !important;
+    padding-bottom: 50px !important;
+    font-size: 50px !important;
+    justify-content: center !important; }
+  .containerSeccion {
+    padding-top: 0% !important;
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-align: center; }
+  .seccion__imgSeccion {
+    width: 200px !important;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px; }
+  /*NOVEDADES */
+  .containerCards {
+    background-color: white; }
+  .novedadesCards {
+    position: relative;
+    left: 70px; }
+  .textNovedades {
+    height: 50px; }
+  .containerAutor {
+    height: 1500px;
+    display: flex;
+    justify-content: center; }
+  .imgAutor {
+    width: 220px;
+    padding: 20px; }
+  .containerNovedades {
+    display: flex;
+    justify-content: center; }
+  .carousel-inner img {
+    height: 100% !important;
+    padding: 1px !important; }
+  .carousel-inner {
+    width: 100%;
+    padding-bottom: 5px; }
+  .carousel-indicators {
+    display: none; }
+  .card {
+    width: 200px !important;
+    margin-top: 0%;
+    margin: 2px !important;
+    border-radius: 0px !important; }
+  .card-img-top {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 150px;
+    padding: 0px !important; }
+  .card-text {
+    display: none; }
+  /* FIN NOVEDADES */
+  /* NOSOTROS */
+  .imgNosotros {
+    width: 200px;
+    position: relative;
+    bottom: 30px; }
+  .pNosotros {
+    text-align: center;
+    text-indent: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px; }
+  .imgPigue {
+    width: 100%; }
+  .historiaNosotros {
+    font-size: 40px;
+    text-align: center; }
+  .testimonioTitulo {
+    font-size: 35px !important;
+    padding: 0px;
+    padding-bottom: 30px;
+    text-align: center; }
+  .parrafoTetsimonio {
+    text-align: justify; }
+  .flexContainer {
+    display: flex;
+    justify-content: center; }
+  .containerTestimonio {
+    margin: 10px; }
+  /* FIN NOSOTROS */
+  /* CONTACTO */
+  .mapaGoogle {
+    width: 100%;
+    height: 400px;
+    padding: 0px; }
+  .titleDondeEstamos {
+    text-align: center; }
+  /* FIN CONTACTO */
+  /* PRODUCTOS */
+  .card-body {
+    padding: 5px !important;
+ }
+  .sectionProductos {
+    margin-left: auto;
+    margin-right: auto; }
+  .cardProducto {
+    padding: 0px !important;
+    margin-right: 5px !important;
+    width: 100%;
+    border: 0px; }
+  .conjuntoProducto {
+    padding: 0px !important;
+    margin: 0px;
+    height: 350px; }
+  .containerProductos {
+    padding: 0px !important;
+    width: 100%;
+    overflow: hidden; }
+  .card-footer {
+    padding: 0px !important; }
+  .img-tienda {
+    width: 150px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px; }
+  .productoNombre {
+    padding-right: 15px; }
+
+    .card{
+      background-color: #5e5b5b28;
+    }
+  /* FIN PRODUCTOS */ }
+
+@media only screen and (min-width: 1020px) and (max-width: 1280px) {
+  .textoParallaxContact {
+    font-family: "Blacksword"; }
+  .titleDondeEstamos {
+    font-family: "Montserrat-Italic";
+    font-size: 40px; }
+  .titleContacto {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .contacto_p {
+    font-family: "Montserrat-Italic";
+    font-size: 20px; }
+  /* FIN CONTACTOS */
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+  /* NOSOTROS */
+  .texto_ParallaxNosotros {
+    font-family: "Blacksword";
+    font-size: 60px; }
+  .historiaNosotros {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .pNosotros {
+    font-family: "Montserrat-Italic";
+    font-size: 18px; }
+  .testimonioTitulo {
+    font-family: "Blacksword";
+    font-size: 50px; }
+  .parrafoTestimonio {
+    font-family: "Montserrat-Italic"; }
+  .nombreTestimonio {
+    font-family: "Montserrat-Italic"; }
+  /* FIN NOSOTROS */
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+  /* PRODUCTOS */
+  .textoParallaxProductos {
+    font-family: "Blacksword";
+    font-size: 60px; }
+
+    
+.card-body{
+  font-size: 23.2px;
+
+}
+  /* FIN PRODUCTOS */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* INDEX */
+  .navbar-nav {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .textoParallaxIndex {
+    font-family: "Blacksword";
+    font-size: 50px; }
+  .textoparallax {
+    font-family: "Montserrat-Italic"; }
+  .containerSeccion__seccionTitulo {
+    font-family: "Montserrat-Italic";
+    font-size: 40px; }
+  .containerSeccion__seccionDescripcion {
+    font-family: "Montserrat-SemiBoldItalic";
+    font-size: 18px; }
+  .feedTitulo {
+    font-family: "Montserrat-SemiBoldItalic"; }
+
+    
+    .imgPrincipales{
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 200px;
+      filter: grayscale(100%);
+      transition: transform .8s, filter 1.10s ease-in-out;
+      width:380px;
+      padding: 0px;   
+     }
+  /* FIN INDEX */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* NOVEDADES */
+  .textosParallaxIndexNovedades {
+    font-family: "Blacksword";
+    font-size: 60px; }
+  .tituloNovedades {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .tituloAutor {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  /* FIN NOVEDADES */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* FOOTER */
+  .creador__creadorPagina {
+    font-family: "Montserrat-Italic"; }
+  .footerRow__tituloFooter {
+    font-family: "Blacksword";
+    font-size: 30px; }
+  .cophyright__copy {
+    font-family: "Montserrat-Italic";
+    font-size: 14px; }
+  .instagram-media {
+    padding-right: 40px !important;
+    margin-top: 50px !important;
+    width: 100% !important; }
+  .containerTestimonio {
+    width: 350px; }
+  .flexContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .imgAutor {
+    width: 210px;
+    height: auto;
+    border-radius: 20px 30px 30px 30px;
+    -webkit-border-radius: 20px 30px 30px 30px;
+    -moz-border-radius: 20px 30px 30px 30px; }
+  .novedadesCards-fluid {
+    display: flexbox;
+    justify-content: center; }
+  .containerAutor {
+    background-color: #0d0d0e;
+    padding: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 800px; } }
+
+@media only screen and (min-width: 1440px) {
+  .textoParallaxContact {
+    font-family: "Blacksword"; }
+  .titleDondeEstamos {
+    font-family: "Montserrat-Italic";
+    font-size: 40px; }
+  .titleContacto {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .contacto_p {
+    font-family: "Montserrat-Italic";
+    font-size: 20px; }
+  /* FIN CONTACTOS */
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+  /* NOSOTROS */
+  .texto_ParallaxNosotros {
+    font-family: "Blacksword";
+    font-size: 60px; }
+  .historiaNosotros {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .pNosotros {
+    font-family: "Montserrat-Italic";
+    font-size: 18px; }
+  .testimonioTitulo {
+    font-family: "Blacksword";
+    font-size: 50px; }
+  .parrafoTestimonio {
+    font-family: "Montserrat-Italic"; }
+  .nombreTestimonio {
+    font-family: "Montserrat-Italic"; }
+  /* FIN NOSOTROS */
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+  /* PRODUCTOS */
+
+
+  .textoParallaxProductos {
+    font-family: "Blacksword";
+    font-size: 60px; }
+
+    .card-body{
+      font-size: 23.2px !important;  
+    }
+    
+    .botonProductos{
+      width:75% !important;
+      border-radius: 0.6rem !important; 
+    }
+
+    .card{
+      background-color: #7c7b7b3a; 
+      border-color: rgba(0, 0, 0, 0.158);
+    }
+  /* FIN PRODUCTOS */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* INDEX */
+  .navbar-nav {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .textoParallaxIndex {
+    font-family: "Blacksword";
+    font-size: 50px; }
+  .textoparallax {
+    font-family: "Montserrat-Italic"; }
+  .containerSeccion__seccionTitulo {
+    font-family: "Montserrat-Italic";
+    font-size: 40px; }
+  .containerSeccion__seccionDescripcion {
+    font-family: "Montserrat-SemiBoldItalic";
+    font-size: 18px; }
+  .feedTitulo {
+    font-family: "Montserrat-SemiBoldItalic"; }
+
+
+    .imgPrincipales{
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 200px;
+      filter: grayscale(100%);
+      transition: transform .8s, filter 1.10s ease-in-out;
+      width:380px;
+      padding: 0px;   
+     }
+  /* FIN INDEX */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* NOVEDADES */
+  .textosParallaxIndexNovedades {
+    font-family: "Blacksword";
+    font-size: 60px; }
+  .tituloNovedades {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  .tituloAutor {
+    font-family: "Montserrat-SemiBoldItalic"; }
+  /* FIN NOVEDADES */
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* FOOTER */
+  .creador__creadorPagina {
+    font-family: "Montserrat-Italic"; }
+  .footerRow__tituloFooter {
+    font-family: "Blacksword";
+    font-size: 30px; }
+  .cophyright__copy {
+    font-family: "Montserrat-Italic";
+    font-size: 14px; }
+  .home {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: repeat;
+    height: 850px;
+    width: 100% !important; }
+  .home-contacto {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px; }
+  .homeNosotros {
+    background-image: url("../assets/images/nosotros1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px; }
+  .homeProductos {
+    background-image: url("../assets/images/tienda.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px; }
+  .home {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: repeat;
+    height: 900px;
+    width: 100% !important; }
+  .containerTestimonio {
+    width: 350px; }
+  .flexContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .titleDondeEstamos {
+    position: relative;
+    top: 10px; } 
+  }
+
+* {
+  cursor: url(../assets/images/cuchillo5.png), auto;
+  margin: 0px;
+  padding: 0px; }
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none; }
+  50% {
+    opacity: .9;
+    transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+* * .navbar-light .navbar-toggler-icon {
+  background-image: url("../assets/images/hamburguesa.png"); 
+}
+
+* * .navbar-light .navbar-toggler {
+  border-color: #e29300;
+  border: solid 2px; }
+
+
+ 
+/* * #loader-page {
+  position: fixed;
+  z-index: 25000;
+  background: white;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 4s ease; }
+
+* #loader-page::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #3296b0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-left: 2px solid rgba(50, 150, 176, 0);
+  border-top: 2px solid rgba(50, 150, 176, 0);
+  animation: rotarload 1s linear infinite;
+  transform: rotate(0deg); }
+
+@keyframes rotarload {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+* #loader-page::after {
+  content: "";
+  position: absolute;
+  border: 2px solid rgba(50, 150, 176, 0.5);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-left: 2px solid rgba(50, 150, 176, 0);
+  border-top: 2px solid rgba(50, 150, 176, 0);
+  animation: rotarload 1s ease-out infinite;
+  transform: rotate(0deg); } */

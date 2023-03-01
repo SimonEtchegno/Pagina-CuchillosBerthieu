@@ -1,0 +1,106 @@
+/* INICIO SITIO PRODUCTOS */
+  
+.homeProductos {
+    background-image: url("../assets/images/productos.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+  }
+
+  .textoParallaxProductos{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 120px;
+        color: whitesmoke;        
+    }
+  .InstruccionesTienda{
+    padding: 5px;
+    color: rgb(12, 12, 12);
+  }
+  
+  .tituloInstruccionesTienda{
+    padding-top: 20px;
+  }
+  .listaInstruccionesTienda{
+    padding-top: 60px;
+    
+    
+  }
+
+    .swipeDownProductos{
+      position: relative;  
+      top:350px;
+      color: rgb(255, 255, 255);
+      animation-name: pulse;
+      animation: pulse 2s 3s ease-out infinite;
+      transition-delay:1.7s;
+    }
+    
+
+.img-tienda{
+       border-radius: 40px 40px 40px 40px ;  
+      padding: 20px;
+      -webkit-transition:all 0.8s ease; 
+}
+
+.img-tienda:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.10);
+}
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+  .conjuntoProducto{
+    height: 600px !important;
+  }
+  
+
+  /* INICIO PAGINACION*/
+
+  .pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* CIERRE PAGINACION*/
+
+/* FIN PRODUCTOS */
